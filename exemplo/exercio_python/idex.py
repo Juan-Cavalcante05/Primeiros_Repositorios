@@ -1,6 +1,6 @@
 import time
 
-nome = str(input('Digite seu nome completo: ')).strip().upper()
+nome = str(input('Digite seu nome completo: ')).strip().lower()
 print('o programa ira verificar se voçe tem -silva no nome- ....')
 time.sleep(1)
 if 'silva' in nome:
